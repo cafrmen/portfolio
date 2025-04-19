@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+   /* overflow: clip; */ /* evita que se mueva el navegador */
+    transition: all 0.7s ease-in-out;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #425F57;
+    color: #425F57;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+div.portrait {
+    background-color: #FBFBFB;
+    width: 97vw;
+    height: 97vh;
+    border-radius: 3px;
+    opacity: .98;
+}
+
+header {
+    margin: 0 21px;
+    position: absolute;
+}
+
+h1 {
+    color: #425F57;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.titleArtist {
+    color: #4C0033;
+}
+
+.titleArtist:hover {
+    text-decoration: underline;
+    background-color: #4C0033;
+    color: #FBFBFB;
+}
+
+.titleGranular {
+    color: black;
+}
+
+.titleGranular:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: #FBFBFB;
+}
+
+.titleNasa {
+    color: #FF4545;
+}
+
+.titleNasa:hover {
+    text-decoration: underline;
+    background-color: #FF4545;
+    color: #FBFBFB;
+}
+
+.titleCipher {
+    color: #ACC572;;
+}
+
+.titleCipher:hover {
+    text-decoration: underline;
+    background-color: #ACC572;
+    color: #FBFBFB;
+}
+
+.titleCalculator {
+    color: #1D5C63;
+}
+
+.titleCalculator:hover {
+    text-decoration: underline;
+    background-color: #1D5C63;
+    color: #FBFBFB;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.sectionOne {
+    width: 100%;
+    height: 50%;
+    align-items: flex-end;
+}
+
+article {
+    width: 21vw;
+    height: 21vh;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../media/perfil.jpg');
+    background-size: 144%;
+    opacity: 0.8;
+}
+
+.firstArticle {
+    height: 13vh;
+    background-position: top left;
+    animation: trece 8s infinite alternate;
+}
+
+.secondArticle {
+    height: 34vh;
+    margin: 3px;
+    background-position: top center;
+    animation: treintaycuatro 5s infinite alternate;
+}
+
+.thirdArticle {
+    height: 21vh;
+    background-position: top right;
+    animation: veintiuno 13s infinite alternate;
+}
+
+.fourthArticle {
+    height: 21vh;
+    margin: 3px;
+    background-position: bottom left;
+    animation: veintiuno 13s infinite alternate;
+}
+
+.fifthArticle {
+    height: 13vh;
+    background-position: bottom center;
+    animation: trece 8s alternate infinite;
+}
+
+.sixthArticle {
+    height: 34vh;
+    margin: 3px;
+    background-position: bottom right;
+    animation: treintaycuatro 5s infinite alternate;
+}
+
+@keyframes trece {
+    from {
+        height: 13vh;
+    }
+    to {
+        height: 34vh;
+    }
+}
+
+@keyframes treintaycuatro {
+    from {
+        height: 34vh;
+    }
+    to {
+        height: 13vh;
+    }
+}
+
+@keyframes veintiuno {
+    0% {
+        height: 21vh;
+    }
+    50% {
+        height: 13vh;
+    }
+    100% {
+        height: 34vh;
+    }
+}
+
+.theSvgS {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    z-index: -100;
+}
+
+.imageArtist {
+    position: relative;
+    opacity: 0.5;
+    overflow: hidden;
+    animation: amsterdam 34s infinite alternate;
+}
+
+@keyframes amsterdam {
+    0% {
+        transform: translateX(0vw);
+    }
+    25% {
+        transform: translateX(55vw);
+    }
+    75% {
+        transform: translateX(-55vw);
+    }
+    100% {
+        transform: translateX(0vw);
+    }
+}
+
+.imageGranular {
+    position: relative;
+    opacity: 0.5;
+    overflow: hidden;
+    animation: bicycle 13s infinite;
+}
+
+@keyframes bicycle {
+    from {
+        transform: translateX(-89vw) rotate(0deg);
+    }
+    to {
+        transform: translateX(89vw) rotate(-45deg);
+    }
+}
+
+.imageNasa {
+    position: relative;
+    opacity: 0.5;
+    overflow: hidden;
+    animation: satelite 21s infinite alternate;
+}
+
+@keyframes satelite {
+    from {
+        transform: translateX(55vw) rotate(0deg) scale(3);
+    }
+    to {
+        transform: translateX(-55vw) rotate(380deg) scale(1);
+    }
+}
+
+.imageCipher {
+    position: relative;
+    opacity: 0.3;
+    overflow: hidden;
+    animation: internet 34s infinite alternate;
+}
+
+@keyframes internet {
+    from {
+        transform: translateX(-55vw) rotate(0deg) scale(3);
+    }
+    to {
+        transform: translateX(55vw) rotate(180deg) scale(5);
+    }
+}
+
+.imageCalculator {
+    position: relative;
+    opacity: 0.3;
+    overflow: hidden;
+    animation: coding 34s infinite alternate;
+}
+
+@keyframes coding {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(8);
+    }
+}
+
+footer {
+    top: 0;
+    width: 97vw;
+    height: 97vh;
+    padding: 0 21px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    pointer-events: none;
+    font-size: 1.2em;
+}
+
+.icon {
+    pointer-events: all;
+    font-size: 1.3em;
+}
+
+.icon:hover {
+    font-size: 2.1em;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
