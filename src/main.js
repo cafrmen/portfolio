@@ -44,7 +44,7 @@ const biography = (e) => {
     insidePortrait.style.setProperty('border-radius', '3px');
 
     boxes.forEach(box => {
-        box.style.setProperty('background-image', 'url("../media/perfil.jpg")');
+        box.style.setProperty('background-image', 'url("https://cafrmen.github.io/portfolio/media/perfil.jpg")');
         box.style.setProperty('background-size', '144%');
         box.style.setProperty('border', 'none');
         box.style.setProperty('border-radius', '3px');
