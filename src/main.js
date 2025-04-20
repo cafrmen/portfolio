@@ -63,7 +63,7 @@ const soundArtist = (e) => {
     insidePortrait.style.setProperty('border-radius', '5px');
 
     boxes.forEach(box => {
-        box.style.setProperty('background-image', 'url("media/artist.png")');
+        box.style.setProperty('background-image', 'url("../media/artist.png")');
         box.style.setProperty('background-size', '233%');
         box.style.setProperty('border', '5px solid #4C0033');
         box.style.setProperty('border-radius', '5%');
@@ -83,7 +83,7 @@ const granulator = (e) => {
     insidePortrait.style.setProperty('border-radius', '8px');
 
     boxes.forEach(box => {
-        box.style.setProperty('background-image', 'url("/portfolio/media/granular.png")');
+        box.style.setProperty('background-image', 'url("../media/granular.png")');
         box.style.setProperty('background-size', '233%');
         box.style.setProperty('border', '8px solid black');
         box.style.setProperty('border-radius', '8px');
