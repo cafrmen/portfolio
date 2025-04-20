@@ -63,7 +63,7 @@ const soundArtist = (e) => {
     insidePortrait.style.setProperty('border-radius', '5px');
 
     boxes.forEach(box => {
-        box.style.setProperty('background-image', 'url("../media/artist.png")');
+        box.style.setProperty('background-image',  'url("https://cafrmen.github.io/portfolio/media/artist.png")');
         box.style.setProperty('background-size', '233%');
         box.style.setProperty('border', '5px solid #4C0033');
         box.style.setProperty('border-radius', '5%');
@@ -83,7 +83,7 @@ const granulator = (e) => {
     insidePortrait.style.setProperty('border-radius', '8px');
 
     boxes.forEach(box => {
-        box.style.setProperty('background-image', 'url("../media/granular.png")');
+        box.style.setProperty('background-image', 'url("https://cafrmen.github.io/portfolio/media/granular.png")');
         box.style.setProperty('background-size', '233%');
         box.style.setProperty('border', '8px solid black');
         box.style.setProperty('border-radius', '8px');
@@ -103,7 +103,7 @@ const nasaPost = (e) => {
     insidePortrait.style.setProperty('border-radius', '5px');
 
     boxes.forEach(box => {
-        box.style.setProperty('background-image', 'url("../media/nasa.png")');
+        box.style.setProperty('background-image', 'url("https://cafrmen.github.io/portfolio/media/nasa.png")');
         box.style.setProperty('background-size', '233%');
         box.style.setProperty('border', '5px solid #FF4545');
         box.style.setProperty('border-radius', '5px');
@@ -123,7 +123,7 @@ const rotCipher = (e) => {
     insidePortrait.style.setProperty('border-radius', '8px');
 
     boxes.forEach(box => {
-        box.style.setProperty('background-image', 'url("../media/cipher.png")');
+        box.style.setProperty('background-image', 'url("https://cafrmen.github.io/portfolio/media/cipher.png")');
         box.style.setProperty('background-size', '233%');
         box.style.setProperty('border', '8px solid #ACC572');
         box.style.setProperty('border-radius', '8px');
@@ -143,7 +143,7 @@ const jsCalculator = (e) => {
     insidePortrait.style.setProperty('border-radius', '13px');
 
     boxes.forEach(box => {
-        box.style.setProperty('background-image', 'url("../media/calculator.png")');
+        box.style.setProperty('background-image', 'url("https://cafrmen.github.io/portfolio/media/calculator.png")');
         box.style.setProperty('background-size', '233%');
         box.style.setProperty('border', '13px solid #1D5C63');
         box.style.setProperty('border-radius', '13%');
