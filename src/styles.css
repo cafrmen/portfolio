@@ -301,7 +301,6 @@ footer {
 
 .icon {
     pointer-events: all;
-    font-size: 1.3em;
 }
 
 .icon:hover {
@@ -311,4 +310,17 @@ footer {
 .hidden {
     display: none;
     visibility: hidden;
+}
+
+@media only screen and (max-width: 650px) {
+    div.portrait {
+        height: 89vh;
+    }
+    footer {
+        top: 5.5vh;
+        height: 89vh;
+    }
+    footer p {
+        margin-bottom: 5px;
+    }
 }
