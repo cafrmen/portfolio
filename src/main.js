@@ -1,6 +1,3 @@
-console.log("JavaScript cargado correctamente");
-
-
 const outsidePortrait = document.querySelector('body');
 const insidePortrait = document.querySelector('.portrait');
 const boxes = document.querySelectorAll('article');
